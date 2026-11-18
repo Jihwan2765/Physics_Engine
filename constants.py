@@ -1,0 +1,21 @@
+﻿# 변경 가능한 설정
+
+WIDTH = 800
+HEIGHT = 600
+
+VERTEX_COUNT = 6
+RADIUS = 10
+
+ROWS = 5
+COLS = 10
+START_X = 80
+START_Y = 75
+SPACING_X = (WIDTH - 2 * START_X) / (COLS - 1) if COLS > 1 else 0
+SPACING_Y = (HEIGHT - 2 * START_Y) / (ROWS - 1) if ROWS > 1 else 0
+
+INITIAL_SPEED = 300  # 초기 속력 (픽셀/초)
+DIRECT_COUNT = 15  # 시작 방향의 개수
+RANDOM_SEED = 130  # 같은 숫자를 사용하면 같은 결과
+
+BACKGROUND_COLOR = (25, 25, 30)
+POLYGON_COLOR = (80, 170, 230)
